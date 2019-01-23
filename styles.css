@@ -1,0 +1,55 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,500|Oswald:200,300,400,700');
+
+body{
+    margin:40px;
+    background-image: url(grass@2x.png);
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #333;
+
+}
+
+h1{
+    font-family: 'Oswald';
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #333;
+}
+
+h2{
+    margin-left:40px;
+    text-transform: uppercase;
+}
+#content{
+    background-color:#C7CCB8;
+    padding: 20px 50px 20px 50px;
+}
+.gallery{
+    float: left;
+    width: 100%;
+    column-count: 2;
+    margin-bottom: 50px;
+}
+.column{
+   width:100%;
+}
+
+ul{
+    clear: both;
+    font-family: 'Oswald';
+    font-weight: 200;
+    font-size: 1em;
+    list-style-image: url(pawprint.png);
+    line-height: 3em;
+    margin-left: 60px;
+    color: #333;
+    letter-spacing: .02em;
+}
+
+p{
+    margin: 10px 40px 50px 40px;
+    font-size: .9em;
+    line-height: 1.9em;
+    color: #333;
+}
